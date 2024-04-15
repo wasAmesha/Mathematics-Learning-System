@@ -1,0 +1,47 @@
+.Questions {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: top;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .Questions .QuestionsContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .Questions .QuestionsContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -10px;
+  }
+
+  .Questions .QuestionsContainer h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .Questions .QuestionsContainer p {
+    padding: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    text-align: justify;
+    margin-right: 40px;
+  }
+  

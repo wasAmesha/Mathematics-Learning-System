@@ -1,0 +1,91 @@
+.quizHome {
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*margin-bottom: 80px;
+    margin-top: 20px;*/
+    background-color: #e6e6e6;
+  }
+
+  .quizHome h1{
+    margin-top: 50px;
+  }
+  
+  .Menu {
+    width: 1100px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  
+  .Menu input, button {
+    width: 600px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(143, 211, 245);
+  }
+  
+  .Menu input, button:hover {
+    background-color: rgb(190, 228, 248);
+    cursor: pointer;
+  }
+
+  .Menu input, button:active {
+    background-color: rgb(39, 236, 180);
+  }
+/*
+  button:hover {
+    cursor: pointer;
+
+  }*/
+  
+  .Quiz {
+    width: 1100px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .Menu, .Quiz, .EndScreen h1 {
+    color: black;
+  }
+  
+  .EndScreen {
+    width: 1100px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  #nextQuestion {
+    width: 200px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+  }
+  
+  h3 {
+    color: Black;
+  }

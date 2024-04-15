@@ -1,0 +1,189 @@
+.login{
+  max-width: 2000px;
+  width: 1471px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 0;
+  background-image: url("../assets/R.jpeg");
+  /*background-size: cover;
+  background-repeat: no-repeat;*/
+  align-content: center;
+  align-self: center;
+}
+
+.login span{
+  color: #6e6e6e;
+  margin-left: 55px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.login #form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+  font-size: 15px;
+}
+
+.login #form >  input, .Logbtn{
+  border: 1px solid #c1c1c2;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: .9em 1em;
+}
+
+.login #form >  input:hover{
+  border: 2px solid #575758;
+  transition: 0.3s ease-out;
+}
+
+.login #form > input:focus{
+  outline: none;
+}
+
+.login .flex{
+  display: flex;
+  gap: 1em;
+}
+
+.login .flex-col{
+  flex-direction: column;
+}
+
+.login .loginForm{
+  margin: auto;
+  padding: 3em 0;
+  width: 700px;
+  background-color: white;
+}
+
+/*.Login .loginForm img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}*/
+
+.login .loginForm h2 {
+  font-size: 30px;
+  margin-left: 110px;
+  margin-top: 0;
+}
+
+.login .loginForm p{
+  color: #323232;
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+.login .loginForm .ProfileIcon {
+  width: 150px;
+  height: 150px;
+  margin-left: 80px;
+  margin-top: -40px;
+}
+
+.login .loginForm button {
+  margin-top: 40px;
+  width: 130px;
+  height: 40px;
+  margin-left: 90px;
+  margin-bottom: -10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login .loginForm button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/*.Login {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+  }
+  
+  .Login .leftSide {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Login .rightSide {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .Login .rightSide h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+  }
+  
+  form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: grey;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  }*/

@@ -1,0 +1,176 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #FFCA0E;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  
+  .navbar .leftSide img {
+    width: 250px;
+    height: 90px;
+  }
+  
+  .navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+  }
+
+  .navbar a:hover {
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.3s ease-out;
+  }
+
+  .navbar .rightSide button {
+    color: black;
+    margin: 20px;
+    background-color: transparent;
+    border: transparent;
+  }
+
+  .logBtn a{
+    color: #FFCA0E;
+    text-decoration: none;
+    margin: 20px;
+    font-size: large;
+  }
+
+  .logBtn a:hover{
+    font-size: large;
+  }
+
+  .logBtn {
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    height: 30px;
+    width: auto;
+    text-decoration: none;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .logBtn:hover {
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+
+  .leftSide button {
+    color: #FFCA0E;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    height: 30px;
+    width: 90px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left:1px;
+    padding-right:1px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .leftSide button:hover {
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+  .navbar .rightSide svg {
+    font-size: 40px;
+  }
+  
+  .navbar .dropIcon{
+    width: 20px;
+    height: 20px;
+    margin-block-end: -4px;
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+
+    .navbar .logBtn{
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }

@@ -1,0 +1,102 @@
+.myCourses {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: top;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.starIcon{
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-block-end: -1px;
+}
+
+.myCourses .myCourseContainer {
+  width: auto;
+  margin-left: 50px;
+  align-content: center;
+}
+
+.myCourses .container {
+  width: 950px;
+  height:50px;
+  border:2px solid #97bffa;
+  border-radius: 10px;
+  margin-left: 30px;
+  padding: 10px 0 40px 20px;
+  margin-bottom:20px;
+  background-color: #97bffa;
+}
+
+.buttonContainer{
+  align-self: center;
+  margin-left: 520px;
+  margin-top: -50px;
+}
+
+.myCourses .myCourseContainer h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 60px;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.myCourses .myCourseContainer h2 {
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
+
+.myCourses .myCourseContainer p {
+  padding: 0;
+  font-size: 20px;
+  font-weight: lighter;
+  color: black;
+}
+
+.myCourses .myCourseContainer .courseButton {
+  align-content: center;
+  margin-left: 50px;
+}
+
+.myCourses .myCourseContainer button {
+  color: #609ffd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  background-color: #ffcf23;
+  border: 1px solid black;
+  height: 40px;
+  width: auto;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 20px 0 20px;
+  margin-left: 30px;
+}
+
+.myCourses .myCourseContainer button:hover {
+  background-color: rgb(42, 39, 39);
+  color: #ffca0e;
+  border: 1px solid rgb(42, 39, 39);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}

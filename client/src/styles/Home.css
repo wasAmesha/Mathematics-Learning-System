@@ -1,0 +1,102 @@
+.home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: top;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .home .homeImg {
+      position: absolute;
+      bottom: -120px;
+      right: 230px;
+      height: 300px;
+      width: 300px;
+      transform: rotate(15deg);
+  }
+  
+  .home .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .home .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    font-weight: 50;
+    color: black;
+  }
+
+  .home .headerContainer h2 {
+    font-size: 25px;
+    height: 60px;
+    font-weight: bold;
+    color: black;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #FFCA0E;
+    padding: 5px 5px 5px 10px;
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+  }
+  
+  .home .headerContainer p {
+    padding: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    text-align: justify;
+    margin-right: 40px;
+  }
+
+  .home .dropIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-block-end: -12px;
+  }
+  
+  .home .headerContainer button {
+    color: #609FFD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #609FFD;
+    height: 50px;
+    width: 180px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+  }
+  
+  .home .headerContainer button:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color:black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home .homeImg {
+      display: none;
+    }
+  }
+  

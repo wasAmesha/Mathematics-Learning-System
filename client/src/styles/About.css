@@ -1,0 +1,54 @@
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: top;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about .aboutImg {
+      position: absolute;
+      top: 160px;
+      right: 50px;
+      height: 620px;
+      width: 580px;
+  }
+  
+  .about .aboutContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .about .aboutContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -10px;
+  }
+
+  .about .aboutContainer h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .about .aboutContainer p {
+    padding: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    text-align: justify;
+    margin-right: 40px;
+  }
+  

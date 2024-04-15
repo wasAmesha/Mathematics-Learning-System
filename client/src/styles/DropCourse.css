@@ -1,0 +1,124 @@
+.dropCourse {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: rgb(234, 232, 232);
+    align-content: center;
+    margin-bottom: -180px;
+  }
+  
+  .dropCourse .dropForm {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(229, 225, 225);
+    background-image: url("../assets/course.jpg");
+  }
+  
+  .dropCourse .dropForm h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: -20px;
+    margin-top: -180px;
+    margin-left: 350px;
+    width: 760px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .dropCourse .dropForm h3 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    width: 760px;
+    height: 50px;
+    background-color: white;
+    color: gray;
+  }
+  
+  .dropCourse form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 280px;
+    padding: 30px;
+    margin-left: 350px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .dropCourse form input {
+    height: 40px;
+    width: 700px;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .dropCourse form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 700px;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: gray;
+  }
+
+  .dropCourse form input:hover {
+    border-bottom: 4px solid #121619;
+    transition: 0.3s ease-out;
+  }
+
+  .dropCourse input::placeholder,
+  .dropCourse textarea::placeholder {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .dropCourse form input:focus,
+  .dropCourse textarea:focus {
+    outline: none;
+  }
+  
+  .dropCourse form label {
+    margin-top: 15px;
+    color: black;
+    font-weight: bolder;
+  }
+  
+  .dropCourse form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    margin-left: 280px;
+    border-radius: 5px;
+    background-color: #FFCA0E;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-bottom: 25px;
+  }
+
+  .dropCourse form button:hover {
+    background-color: black;
+    color: white;
+  }

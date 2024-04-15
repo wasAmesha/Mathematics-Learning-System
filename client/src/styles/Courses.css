@@ -1,0 +1,105 @@
+.courses {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 70px;
+    margin-top: 20px;
+  }
+  
+  .courses .courseContainer {
+    width: auto;
+    margin-left: 50px;
+    align-content: center;
+  }
+
+  .courseList{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+
+  .courseCircleIcon {
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+    margin-right: 5px;
+    margin-block-end: 2px;
+  }
+  
+  .courses .courseContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: -10px;
+  }
+  
+  .courses .courseContainer h2 {
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: -10px;
+  }
+  
+  .courses .courseContainer p {
+    padding: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+  }
+
+  .courses .courseContainer .regButton{
+    align-self: center;
+  }
+  
+  .courses .courseContainer .regButton button {
+    color: #609FFD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    background-color: #609FFD;
+    height: 40px;
+    width: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+    margin-left:600px;
+  }
+
+  .courses .courseContainer .viewButton button {
+    color: #609FFD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    background-color: #609FFD;
+    height: 40px;
+    width: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 0 20px 0 20px;
+    margin-left:550px;
+  }
+  
+  .courses .courseContainer button:hover {
+    background-color: #4d4d4e;
+    color:white;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
